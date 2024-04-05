@@ -48,6 +48,7 @@ int main()
         else
             push(string[i]);       
     }
+    push('\0');
     printf("Output: ");
     for(int i=0;i<strlen(stack);i++)
         printf("%c",stack[i]);
